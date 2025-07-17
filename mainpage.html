@@ -1,0 +1,44 @@
+<!-- mainpage.html - Preview Version  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Green Commute Planner</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="mainpage.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css"/>
+</head>
+
+<body>
+
+  <!-- Route Input Controls -->
+  <div class="controls">
+    <input type="text" id="from" placeholder="📍 Starting Point" autocomplete="on" />
+    <input type="text" id="to" placeholder="🌍 Destination" autocomplete="on" />
+    <button id="getRouteButton" onclick="getRoute()">Get Route</button>
+  </div>
+
+  <!-- Route Options Display -->
+  <div id="options-panel" class="options-panel"></div>
+  <div id="metro-directions-panel" class="metro-panel" style="display: none;"></div>
+
+  <!-- Start Button -->
+  <button id="start">Start Ride!</button>
+
+  <!-- Map Container -->
+  <div id="map"></div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.min.js"></script>
+  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+  <script src="mainpage.js"></script>
+</body>
+</html>
+
+<!-- Note: For complete version please contact the collaborators  -->

@@ -1,0 +1,46 @@
+[
+  {
+    "Station Name": "Miyapur",
+    "Line": "Red Line",
+    "Latitude": 17.49656,
+    "Longitude": 78.37293,
+    "Next Station": "J.N.T.U College",
+    "Distance to Next (km)": 1.8,
+    "Time to Next (min)": 3,
+    "Connections": "None",
+    "Emission per km (gCO2)": 0
+  },
+  {
+    "Station Name": "J.N.T.U College",
+    "Line": "Red Line",
+    "Latitude": 17.498653,
+    "Longitude": 78.388793,
+    "Next Station": "K.P.H.B. Colony",
+    "Distance to Next (km)": 1.4,
+    "Time to Next (min)": 3,
+    "Connections": "None",
+    "Emission per km (gCO2)": 0
+  },
+  {
+    "Station Name": "Uppal",
+    "Line": "Blue Line",
+    "Latitude": 17.4005394498711,
+    "Longitude": 78.5602014773399,
+    "Next Station": "Nagole",
+    "Distance to Next (km)": 1,
+    "Time to Next (min)": 2,
+    "Connections": "None",
+    "Emission per km (gCO2)": 0
+  },
+  {
+    "Station Name": "Nagole",
+    "Line": "Blue Line",
+    "Latitude": 17.3912432947509,
+    "Longitude": 78.5586566097874,
+    "Next Station": "None",
+    "Distance to Next (km)": "None",
+    "Time to Next (min)": "None",
+    "Connections": "None",
+    "Emission per km (gCO2)": 0
+  }
+]

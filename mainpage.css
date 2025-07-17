@@ -1,0 +1,62 @@
+/* mainpage.css - Preview Version */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7e9;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Input controls box */
+.controls {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 1000;
+  width: 300px;
+  background: #fff;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.controls input,
+.controls button {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 6px;
+  border-radius: 8px;
+  border: 1px solid #c8e6c9;
+}
+
+/* Get Route Button */
+#getRouteButton {
+  background: linear-gradient(90deg, #43a047, #66bb6a);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#getRouteButton:hover {
+  background: linear-gradient(90deg, #388e3c, #43a047);
+}
+
+/* Metro Panel */
+.metro-panel {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  width: 280px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  color: #2e7d32;
+}
+
+/* Note: For complete version please contact the collaborators  */
