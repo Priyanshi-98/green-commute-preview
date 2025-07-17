@@ -82,28 +82,17 @@ Green Maps helps users plan sustainable travel routes by combining live map data
 
 ## 📷 Screenshots
 
-<img width="940" height="561" alt="image" src="https://github.com/user-attachments/assets/acfc93f1-01c1-4991-897a-67df550073a8" />
-<img width="989" height="591" alt="image" src="https://github.com/user-attachments/assets/c4ecb25c-a5c5-4c39-acba-0237c04cd7eb" />
-<img width="988" height="589" alt="image" src="https://github.com/user-attachments/assets/b2036ee2-f7ee-45a5-9875-e5cdc859d68c" />
-<img width="992" height="591" alt="image" src="https://github.com/user-attachments/assets/a793e569-d5c8-408c-b8ae-664da3d38176" />
-<img width="989" height="591" alt="image" src="https://github.com/user-attachments/assets/30bf4806-020f-4ad4-b08e-77a1cd554456" />
+<img height="250" alt="image" src="https://github.com/user-attachments/assets/acfc93f1-01c1-4991-897a-67df550073a8" />
+<img height="250" alt="image" src="https://github.com/user-attachments/assets/c4ecb25c-a5c5-4c39-acba-0237c04cd7eb" />
+<img height="250" alt="image" src="https://github.com/user-attachments/assets/b2036ee2-f7ee-45a5-9875-e5cdc859d68c" />
+<img height="250" alt="image" src="https://github.com/user-attachments/assets/a793e569-d5c8-408c-b8ae-664da3d38176" />
+<img height="250" alt="image" src="https://github.com/user-attachments/assets/30bf4806-020f-4ad4-b08e-77a1cd554456" />
 
 ---
 
 ## 📁 Project Structure
 
-```bash
-green-commute-planner/
-├── mainpage.html            # Main HTML page with map & UI
-├── mainpage.css             # Styles for map and control panels
-├── mainpage.js              # JS for map, routing, and logic
-├── /data
-│   └── hyderabad_metro.json # Metro station dataset
-├── /backend                 # Optional backend folder
-│   └── server.js
-├── .env                     # Environment variables (DB credentials etc.)
-└── README.md                # This file
-
+<pre>  ```plaintext green-commute-preview/ │ ├── auth.html ├── authstyle.css ├── mainpage.html ├── mainpage.css ├── mainpage.js ├── metro_stations.json └── README.md ``` </pre>
 ---
 
 ## 🧾 Dataset Overview
