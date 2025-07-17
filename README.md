@@ -9,6 +9,7 @@ A smart, eco-friendly route planner that helps users choose the most sustainable
 This web app calculates distance, time, CO₂ emissions, and calories burned for multiple travel modes — including walking, cycling, metro, and personal vehicles.
 
 > ⚠️ This is a **public preview**. Sensitive backend code and full database logic are excluded for privacy and security.
+> Full version available upon request. Feel free to reach out!
 
 ---
 
@@ -81,7 +82,11 @@ Green Maps helps users plan sustainable travel routes by combining live map data
 
 ## 📷 Screenshots
 
-> _(Add screenshots or GIF here if available)_
+<img width="940" height="561" alt="image" src="https://github.com/user-attachments/assets/acfc93f1-01c1-4991-897a-67df550073a8" />
+<img width="989" height="591" alt="image" src="https://github.com/user-attachments/assets/c4ecb25c-a5c5-4c39-acba-0237c04cd7eb" />
+<img width="988" height="589" alt="image" src="https://github.com/user-attachments/assets/b2036ee2-f7ee-45a5-9875-e5cdc859d68c" />
+<img width="992" height="591" alt="image" src="https://github.com/user-attachments/assets/a793e569-d5c8-408c-b8ae-664da3d38176" />
+<img width="989" height="591" alt="image" src="https://github.com/user-attachments/assets/30bf4806-020f-4ad4-b08e-77a1cd554456" />
 
 ---
 
@@ -99,7 +104,7 @@ green-commute-planner/
 ├── .env                     # Environment variables (DB credentials etc.)
 └── README.md                # This file
 
---
+---
 
 ## 🧾 Dataset Overview
 <details> <summary><strong>📊 Click to view metro dataset preview</strong></summary>
@@ -144,24 +149,11 @@ Sample Entries
 
 ---
 
-## 🔒 What's Omitted in this Public Version
-
-| Omitted | Reason |
-|---------|--------|
-| Full `server.js` backend with login/signup | Contains sensitive DB logic |
-| Metro route graph building | Proprietary logic |
-| SQL schema and queries | Tied to private database |
-| Authentication logic | Requires user credentials and hashing |
-| Metro station dataset (`hyderabad_metro_stations.json`) | Large proprietary file |
-
-> Full version available upon request. Feel free to reach out!
-
----
-## 🧑‍💻 Author
+## 🧑‍💻 **Author**
 github.com/Priyanshi-98
 github.com/Sriya-09
 
 ---
-## 📄 License
+## 📄 **License**
 This preview is open for viewing and feedback.
 The full version is available upon request and is not publicly licensed for reuse.
