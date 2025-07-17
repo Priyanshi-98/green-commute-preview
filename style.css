@@ -1,0 +1,185 @@
+h1{
+    color: rgba(4, 125, 4, 0.84);
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px; 
+    margin-left: 70px;
+}
+
+h4{
+    color: black;
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 150px; 
+    margin-left: 70px;
+}
+
+h2{
+    color: #2e7d32;
+    margin-left: 70px;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+/* Enlarged Login/Signup Button Styling */
+.auth-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: #2e7d32; /* Dark Green */
+    color: white;
+    padding: 12px 25px; /* Increased padding */
+    border-radius: 8px; /* Slightly rounded corners */
+    font-weight: bold;
+    font-size: 18px; /* Bigger text */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.auth-button:hover {
+    background-color: #1b5e20; /* Darker Green */
+}
+
+/* Align logo to top-left */
+.logo-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align to top-left */
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+/* Resize logo */
+.logo-title img {
+    height: 80px; /* Adjust as needed */
+}
+
+/* Increase font size and change color */
+.logo-title h1 {
+    font-size: 60px; /* Same size */
+    color: rgba(4, 125, 4, 0.84); /* Same green color */
+    font-weight: bold;
+}
+
+/* Adjust subtitle */
+.logo-title h4 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 5px;
+}
+
+/* Moves the image to the right */
+.hero-image {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto; /* Pushes it to the right */
+    max-width: 50%; /* Ensures the image is not too large */
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between; /* Text on the left, image on the right */
+    align-items: center;
+    width: 100%;
+    padding: 20px; /* Adds some spacing */
+}
+
+/* Keeps the text on the left */
+.hero-text {
+    flex: 1;
+    padding-left: 50px;
+}
+
+/* Moves the image further to the right */
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 0; /* Ensure no unwanted margins */
+    padding-right: 50px; /* Adjust this if needed */
+    max-width: 50%; /* Prevents it from being too large */
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.feature-card {
+    width: 250px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #f0fdf4;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+}
+
+.feature-card h3 {
+    color: #2e7d32;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+footer {
+    background-color: #f0fdf4; /* Green background */
+    color: black;
+    text-align: left; /* Align text to the left */
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footer-container {
+    max-width: 600px;
+    margin-left: 20px; /* Moves it to the left */
+}
+
+.footer-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-container ul li {
+    font-size: 18px;
+    margin: 5px 0;
+}
